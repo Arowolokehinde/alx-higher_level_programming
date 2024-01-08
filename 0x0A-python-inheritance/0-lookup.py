@@ -1,4 +1,4 @@
 #!/usr/bin/python3
+""" function that return methods and attributes of an onject"""
 def lookup(obj):
-    """ function that returns the list of availabile attribu and methods"""
     return dir(obj)
