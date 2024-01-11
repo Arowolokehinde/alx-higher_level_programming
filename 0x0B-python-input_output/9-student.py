@@ -3,6 +3,7 @@
 Module that defines the class student
 """
 
+
 class Student:
     """class to create student class """
     def __init__(self, first_name, last_name, age):
