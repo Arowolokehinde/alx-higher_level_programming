@@ -29,7 +29,7 @@ class Rectangle(Base):
             return self.__width
 
         @width.setter
-        def width(self,value):
+        def width(self, value):
             if type(value) != int:
                 raise TypeError("width must be an integer")
             if value <= 0:
