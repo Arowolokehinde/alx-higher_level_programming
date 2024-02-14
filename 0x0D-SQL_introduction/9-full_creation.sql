@@ -5,8 +5,7 @@ CREATE TABLE IF NOT EXISTS hbtn_0c_0.second_table (
 	score INT
 );
 
-INSERT INTO hbtn_0c_0.second_table (id, name, score)
-VALUES (1, "john", 10),
-	(2, "Alex", 3),
-	(3, "Bob", 14),
-	(4, "George", 8);
+INSERT INTO second_table (id, name, score) VALUES (1, "john", 10);
+INSERT INTO second_table (id, name, score) VALUES (2, "Alex", 3);
+INSERT INTO second_table (id, name, score) VALUES (3, "Bob", 14);
+INSERT INTO second_table (id, name, score) VALUES (4, "George", 8);
