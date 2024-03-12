@@ -1,5 +1,6 @@
 #!/bin/usr/node
 
+//  a class Rectangle that defines a rectangle:
 class Rectangle {
   constructor (w, h) {
     if (Number.isInteger(w) && w > 0 && Number.isInteger(h) && h > 0) {
