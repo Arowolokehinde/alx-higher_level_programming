@@ -1,0 +1,7 @@
+import { GoogleGenerativeAI } from "@google/generative-ai";
+
+const API_KEY = 'AIzaSyBoCQvF8WrwRnHpxmLTXJvEzjoXxgWA_8I'
+
+const genAI = new GoogleGenerativeAI(process.env.API_KEY);
+
+const model = genAI.getGenerativeModel({ model: "MODEL_NAME"});
