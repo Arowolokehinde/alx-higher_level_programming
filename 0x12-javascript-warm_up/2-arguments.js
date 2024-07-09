@@ -1,5 +1,5 @@
 #!/usr/bin/node
-
+/* eslint-disable quotes */
 const { argv } = require("node:process");
 
 if (argv.length === 2) {
