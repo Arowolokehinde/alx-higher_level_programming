@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// const x = Math.floor(Number(process.argv[2]));
+/* eslint-disable quotes */
 
 const x = parseInt(process.argv[2]);
 if (isNaN(x)) {
