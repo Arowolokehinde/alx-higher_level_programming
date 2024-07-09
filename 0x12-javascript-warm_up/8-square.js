@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 /* eslint-disable quotes */
 
 const { argv } = require("node:process");
